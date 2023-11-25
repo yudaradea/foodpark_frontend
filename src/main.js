@@ -4,10 +4,8 @@ import "./assets/css/bootstrap.min.css";
 import "./assets/css/nice-select.css";
 import "./assets/css/style.css";
 import "./assets/css/responsive.css";
-
 import "./assets/css/slick.css";
 import "./assets/css/spacing.css";
-
 import "./assets/css/venobox.min.css";
 
 import { createApp } from "vue";
