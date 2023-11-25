@@ -20,8 +20,8 @@ const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 
-loadScript("../public/js/Font-Awesome.js");
-loadScript("../public/js/wow.min.js").then(() => {
+loadScript("./js/Font-Awesome.js");
+loadScript("./js/wow.min.js").then(() => {
   new WOW().init();
 });
 
