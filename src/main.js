@@ -20,7 +20,9 @@ const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 
+loadScript("./js/jquery-3.6.0.min.js");
 loadScript("./js/Font-Awesome.js");
+loadScript("./js/isotope.pkgd.min.js");
 loadScript("./js/wow.min.js").then(() => {
   new WOW().init();
 });

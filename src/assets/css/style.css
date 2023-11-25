@@ -1210,7 +1210,7 @@ button {
   margin-top: 15px;
 }
 
-.fp__offer_item_single ul li a {
+.fp__offer_item_single ul li button {
   width: 30px;
   height: 30px;
   background: var(--colorPrimary);
