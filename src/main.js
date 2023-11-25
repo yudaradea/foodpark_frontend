@@ -16,6 +16,7 @@ import router from "./router";
 
 const app = createApp(App);
 
+new WOW().init();
 app.use(createPinia());
 app.use(router);
 

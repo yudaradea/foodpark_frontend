@@ -1,6 +1,6 @@
 <script setup>
 import HomeBaner from "../components/home/HomeBaner.vue";
-import ChooseUse from "../components/home/ChooseUse.vue";
+import ChooseUs from "../components/home/ChooseUs.vue";
 import OverItem from "../components/home/OverItem.vue";
 </script>
 
@@ -8,7 +8,7 @@ import OverItem from "../components/home/OverItem.vue";
   <main>
     <HomeBaner />
 
-    <ChooseUse />
+    <ChooseUs />
 
     <OverItem />
   </main>

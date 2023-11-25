@@ -1,4 +1,6 @@
 <script setup>
+import { onMounted } from "vue";
+
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectFade } from "swiper/modules";
 
@@ -11,8 +13,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const modules = [Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectFade];
-
-new WOW().init();
 </script>
 <template>
   <!--=============================
