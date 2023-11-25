@@ -5,10 +5,10 @@ import { onMounted } from "vue";
 
 import { loadScript } from "vue-plugin-load-script";
 
-loadScript("/src/assets/js/wow.min.js").then(() => {
+loadScript("/public/js/wow.min.js").then(() => {
   new WOW().init();
 });
-loadScript("/src/assets/js/Font-Awesome.js");
+loadScript("/public/js/Font-Awesome.js");
 </script>
 
 <template>
