@@ -13,11 +13,16 @@ import { createPinia } from "pinia";
 
 import App from "./App.vue";
 import router from "./router";
-import LoadScript from "vue-plugin-load-script";
+import { loadScript } from "vue-plugin-load-script";
 
 const app = createApp(App);
 
 app.use(createPinia());
-app.use(router, LoadScript);
+app.use(router);
+
+loadScript("../public/js/Font-Awesome.js");
+loadScript("../public/js/wow.min.js").then(() => {
+  new WOW().init();
+});
 
 app.mount("#app");
