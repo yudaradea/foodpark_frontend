@@ -11,6 +11,7 @@
     "pinia": "^2.1.7",
     "swiper": "^11.0.5",
     "vue": "^3.3.4",
+    "vue-plugin-load-script": "^2.1.1",
     "vue-router": "^4.2.5",
     "vue3-carousel": "^0.3.1",
     "wowjs": "^1.1.3"
