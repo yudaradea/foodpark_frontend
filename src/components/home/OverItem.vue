@@ -18,7 +18,6 @@ const showModalItem = ref(false);
 
 function clickModalItem() {
   showModalItem.value = !showModalItem.value;
-  console.log(showModalItem.value);
 }
 </script>
 <template>

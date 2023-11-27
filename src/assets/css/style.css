@@ -42,7 +42,9 @@ span {
   margin: 0;
   color: var(--paraColor);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -1915,6 +1917,25 @@ button {
 }
 
 .fp__single_counter .text h2::after {
+  position: absolute;
+  content: "+";
+  color: var(--colorWhite);
+  font-size: 40px;
+  top: -3px;
+  right: -30px;
+}
+
+.fp__single_counter .text span {
+  color: var(--colorWhite);
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.fp__single_counter .text span::after {
   position: absolute;
   content: "+";
   color: var(--colorWhite);

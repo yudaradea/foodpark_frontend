@@ -1,23 +1,19 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import { ref } from "vue";
 import Navbar from "./components/navbar/Navbar.vue";
-import { loadScript } from "vue-plugin-load-script";
-import { onBeforeMount, onMounted } from "vue";
-
-// onBeforeMount(() => {
-//   loadScript("../public/js/Font-Awesome.js");
-//   loadScript("../public/js/wow.min.js");
-// });
-
-// onMounted(() => {
-//   new WOW().init();
-// });
+import Footer from "./components/footer/Footer.vue";
+import ScrollUp from "./components/ScrollUp.vue";
 </script>
 
 <template>
   <Navbar />
 
   <RouterView />
+
+  <Footer />
+
+  <ScrollUp />
 </template>
 
 <style>

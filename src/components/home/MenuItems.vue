@@ -5,7 +5,6 @@ const filterData = ref("all");
 
 function clickMenu(data) {
   filterData.value = data;
-  console.log(filterData.value);
 }
 </script>
 
